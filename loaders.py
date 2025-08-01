@@ -3,8 +3,6 @@ from fake_useragent import UserAgent
 import os
 import streamlit as st
 from time import sleep
-from youtube_transcript_api import YouTubeTranscriptApi
-from youtube_transcript_api._errors import NoTranscriptFound, TranscriptsDisabled
 
 
 def carrega_site(url):
